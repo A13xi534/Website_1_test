@@ -22,7 +22,7 @@ def accueil():
 
 @app.get("/presentation")
 def presentation():
-    return render_template("presentation.html", prenom="Léa", nom="Martin")
+    return render_template("presentation.html", prenom="Alexis", nom="Delporte")
 
 @app.get("/loisirs")
 def loisirs():
