@@ -24,7 +24,10 @@ def accueil():
 def presentation():
     return "Je m'appelle Alexis et je suis étudiante en informatique."
 
-
+@app.get("/loisirs")
+def loisirs():
+    return "Je pratique le basketball."
+    
 # ---------------------------------------------------------------
 #  Ajoutez vos nouvelles routes ci-dessous 👇
 # ---------------------------------------------------------------
