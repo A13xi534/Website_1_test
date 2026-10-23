@@ -26,7 +26,8 @@ def presentation():
 
 @app.get("/loisirs")
 def loisirs():
-    return "Je pratique le basketball."
+    return render_template("presentation.html", prenom="Léa", nom="Martin",
+                       loisirs=["Jeux vidéo", "Musique", "Escalade"])
     
 # ---------------------------------------------------------------
 #  Ajoutez vos nouvelles routes ci-dessous 👇
