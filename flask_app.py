@@ -97,8 +97,9 @@ def api_heure():
 def horloge():
     return render_template("horloge.html")
 
-
-
+@app.get("/tina")
+def tina():
+    return render_template("tina.html")
 
 # ---------------------------------------------------------------
 #  Ajoutez vos nouvelles routes ci-dessous 👇
